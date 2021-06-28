@@ -1,0 +1,54 @@
+header{position: absolute;
+    width: 1915px;
+    height: 81px;
+    left: 0px;
+    top: 0px;
+    background-color:rgb(207, 12, 241);
+    text-align: center;}
+main{position: absolute;
+    width: 1915px;
+    height: 927px;
+    left: 0px;
+    top: 81px;
+    background-image: url(beach.png);
+    background-size: cover;
+    background-position: center;} 
+nav{position: absolute;
+    width: 362px;
+    height: 250px;
+    left: 0px;
+    top: 156px; 
+    background: #43D7C5;
+    text-align: left;}
+article{position: absolute;
+    width: 750px;
+    height: 250px;
+    right: 185px;
+    top: 156px;
+    background: #52C83E;
+    text-align: left;}
+
+video{position: absolute;
+    width: 746px;
+    height: 147px;
+    left: 1120px;
+    top: 759px;
+    background: #3E5BA6;
+    text-align: left;}
+footer{position: absolute;
+    width: 1915px;
+    height: 63px;
+    left: 0px;
+    top: 1008px;
+    background-color: cadetblue;
+    transform: matrix(1, 0, 0, -1, 0, 0);}
+    
+@media(min-width:1024px) {nav{
+        font-family: sans-serif;
+        font-size: 1.25rem;color:coral}}
+@media(min-width:1024px){article{
+        font-family: cursive;
+        font-size: 1.0rem;color: blue;
+        }}
+
+        
